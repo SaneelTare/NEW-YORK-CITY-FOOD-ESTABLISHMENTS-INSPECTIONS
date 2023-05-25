@@ -1,0 +1,505 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>4000</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>65001</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="CAMIS" size="4000" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="V_WString" />
+            <Field name="DBA" size="4000" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="V_WString" />
+            <Field name="BORO" size="4000" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="V_WString" />
+            <Field name="BUILDING" size="4000" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="V_WString" />
+            <Field name="STREET" size="4000" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="V_WString" />
+            <Field name="ZIPCODE" size="4000" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="V_WString" />
+            <Field name="PHONE" size="4000" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="V_WString" />
+            <Field name="CUISINE DESCRIPTION" size="4000" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="V_WString" />
+            <Field name="INSPECTION DATE" size="4000" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="V_WString" />
+            <Field name="ACTION" size="4000" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="V_WString" />
+            <Field name="VIOLATION CODE" size="4000" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="V_WString" />
+            <Field name="VIOLATION DESCRIPTION" size="4000" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="V_WString" />
+            <Field name="CRITICAL FLAG" size="4000" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="V_WString" />
+            <Field name="SCORE" size="4000" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="V_WString" />
+            <Field name="GRADE" size="4000" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="V_WString" />
+            <Field name="GRADE DATE" size="4000" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="V_WString" />
+            <Field name="RECORD DATE" size="4000" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="V_WString" />
+            <Field name="INSPECTION TYPE" size="4000" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="V_WString" />
+            <Field name="Latitude" size="4000" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="V_WString" />
+            <Field name="Longitude" size="4000" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="V_WString" />
+            <Field name="Community Board" size="4000" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="V_WString" />
+            <Field name="Council District" size="4000" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="V_WString" />
+            <Field name="Census Tract" size="4000" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="V_WString" />
+            <Field name="BIN" size="4000" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="V_WString" />
+            <Field name="BBL" size="4000" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="V_WString" />
+            <Field name="NTA" size="4000" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="V_WString" />
+            <Field name="Location Point" size="4000" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="522" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="10" type="Date" />
+            <FormulaField expression="DateTimeParse([INSPECTION DATE],'%m-%d-%y')" field="INSPECTION_DATE" size="10" type="Date" />
+            <FormulaField expression="DateTimeParse([RECORD DATE],'%m-%d-%y')" field="RECORD_DATE" size="10" type="Date" />
+            <FormulaField expression="[Engine.WorkflowFileName]" field="WORKFLOW" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DI_CreateDate = DateTimeNow()
+INSPECTION_DATE = DateTimeParse([INSPECTION DATE],...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="642" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>RecordID</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int64</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="786" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:NYC_Food_Inspection|||nyc_ins.Nyc_FoodInspectionData</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Overwrite</OutputOption>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:NYC_Food_Inspection
+Query=nyc_ins.Nyc_FoodInspectionDa...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="786" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\sanee\AppData\Local\Temp\Engine_6996_45614aa99c94b941a0cd3dad83cd10be_\Engine_6996_1c71d37594bc9b4f9ab934d02519e371~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+        <Position x="498" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Limit_UniqueCount>10000</Limit_UniqueCount>
+          <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+          <IsMetric value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="786" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\sanee\AppData\Local\Temp\Engine_6996_45614aa99c94b941a0cd3dad83cd10be_\Engine_6996_94629596fffeed49b88c0637159ef9ba~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="390" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="INSPECTION TYPE" selected="True" size="4000" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings>
+        <Position x="558" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">CAMIS=True,DBA=True,BORO=True,BUILDING=True,STREET=True,ZIPCODE=True,PHONE=True,CUISINE DESCRIPTION=True,INSPECTION DATE=True,ACTION=False,VIOLATION CODE=True,VIOLATION DESCRIPTION=False,CRITICAL FLAG=True,SCORE=True,GRADE=True,GRADE DATE=True,RECORD DATE=True,INSPECTION TYPE=False,Latitude=True,Longitude=True,Community Board=True,Council District=True,Census Tract=True,BIN=True,BBL=True,NTA=True,Location Point=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="2">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="774" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\sanee\AppData\Local\Temp\Engine_6996_45614aa99c94b941a0cd3dad83cd10be_\Engine_6996_e590d62317efb8498e217a1b4d8db484~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="786" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+          <TempFile>C:\Users\sanee\AppData\Local\Temp\Engine_6996_45614aa99c94b941a0cd3dad83cd10be_\Engine_6996_beb1ecac4e3ef4418ce7aaaa5bccc523~.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="786" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+          <TempFile>C:\Users\sanee\AppData\Local\Temp\Engine_6996_45614aa99c94b941a0cd3dad83cd10be_\Engine_6996_5d1f8db85953024bb883452187c82aac~.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="258" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="CAMIS" selected="True" />
+            <Field field="DBA" selected="True" />
+            <Field field="BORO" selected="True" />
+            <Field field="BUILDING" selected="True" />
+            <Field field="STREET" selected="True" />
+            <Field field="ZIPCODE" selected="True" />
+            <Field field="PHONE" selected="True" />
+            <Field field="CUISINE DESCRIPTION" selected="True" />
+            <Field field="INSPECTION DATE" selected="True" />
+            <Field field="ACTION" selected="True" />
+            <Field field="VIOLATION CODE" selected="True" />
+            <Field field="VIOLATION DESCRIPTION" selected="True" />
+            <Field field="CRITICAL FLAG" selected="True" />
+            <Field field="SCORE" selected="True" />
+            <Field field="GRADE" selected="True" />
+            <Field field="GRADE DATE" selected="True" />
+            <Field field="RECORD DATE" selected="True" />
+            <Field field="INSPECTION TYPE" selected="True" />
+            <Field field="Latitude" selected="True" />
+            <Field field="Longitude" selected="True" />
+            <Field field="Community Board" selected="True" />
+            <Field field="Council District" selected="True" />
+            <Field field="Census Tract" selected="True" />
+            <Field field="BIN" selected="True" />
+            <Field field="BBL" selected="True" />
+            <Field field="NTA" selected="True" />
+            <Field field="Location Point" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="CAMIS" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="Int32" />
+            <Field name="DBA" size="95" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="V_WString" />
+            <Field name="BORO" size="13" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="V_String" />
+            <Field name="BUILDING" size="10" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="V_WString" />
+            <Field name="STREET" size="40" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="V_String" />
+            <Field name="ZIPCODE" size="5" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="String" />
+            <Field name="PHONE" size="12" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="String" />
+            <Field name="CUISINE DESCRIPTION" size="30" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="V_String" />
+            <Field name="INSPECTION DATE" size="10" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="String" />
+            <Field name="ACTION" size="130" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="V_String" />
+            <Field name="VIOLATION CODE" size="5" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="String" />
+            <Field name="VIOLATION DESCRIPTION" size="940" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="V_WString" />
+            <Field name="CRITICAL FLAG" size="14" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="String" />
+            <Field name="SCORE" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="Byte" />
+            <Field name="GRADE" size="1" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="String" />
+            <Field name="GRADE DATE" size="10" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="V_String" />
+            <Field name="RECORD DATE" size="10" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="String" />
+            <Field name="INSPECTION TYPE" size="59" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="V_String" />
+            <Field name="Latitude" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="Double" />
+            <Field name="Longitude" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="Double" />
+            <Field name="Community Board" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="Int16" />
+            <Field name="Council District" size="2" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="String" />
+            <Field name="Census Tract" size="6" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="String" />
+            <Field name="BIN" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="Int32" />
+            <Field name="BBL" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="Int64" />
+            <Field name="NTA" size="4" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="String" />
+            <Field name="Location Point" source="File: C:\Users\sanee\OneDrive\Desktop\Fall 22\dadabi\10 6 22\Final Assignment\nyc\DOHMH_New_York_City_Restaurant_Inspection_Results (1).tsv" type="Bool" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="33" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Interactive" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Reports" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>NewYorkCity_Food_Inspection_dp</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="e00c6c01-b493-42c1-8a42-546317dec450" />
+      <Telemetry>
+        <PreviousWorkflowId value="a888f44c-9f9c-40ec-aa42-15f8bc09e890" />
+        <OriginWorkflowId value="f83ef227-109d-461b-8f63-369ab7e65637" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
